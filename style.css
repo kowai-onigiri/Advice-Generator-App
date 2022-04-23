@@ -8,7 +8,7 @@
 @media (max-width: 480px) {
     .card {
         width: 90vw;
-        height: 55vh;
+        height: 45vh;
     }
 
     .text {
@@ -20,7 +20,7 @@
     }
 
     .adviceText {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         padding-bottom: 10px;
     }
 
@@ -31,6 +31,7 @@
     .diceIcon {
         transform: translateY(-32px);
     }
+
 }
 
 @media (min-width: 481px) {
@@ -44,7 +45,7 @@
     }
 
     .adviceId {
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
 
     .adviceText {
@@ -58,6 +59,7 @@
     .diceIcon {
         transform: translateY(-30px);
     }
+
 
 
 }
@@ -89,13 +91,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
 .adviceId {
     color: hsl(150, 100%, 66%);
     font-size: 14px;
+    letter-spacing: 3px;
 }
 
 .adviceText {
@@ -104,8 +107,7 @@ body {
 }
 
 .divider {
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,8 +132,13 @@ body {
 
 .attribution { 
     font-size: 11px; text-align: center; 
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(150, 100%, 66%); 
+    text-decoration: none;
 }
