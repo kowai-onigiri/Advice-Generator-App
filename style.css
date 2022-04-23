@@ -8,15 +8,20 @@
 @media (max-width: 480px) {
     .card {
         width: 90vw;
-        height: 50vh;
+        height: 55vh;
     }
 
     .text {
         height: 25vh;
     }
 
+    .adviceId {
+        padding-bottom: 20px;
+    }
+
     .adviceText {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+        padding-bottom: 10px;
     }
 
     .desktopDiv {
@@ -36,6 +41,10 @@
 
     .text {
         height: 150px;
+    }
+
+    .adviceId {
+        padding-bottom: 30px;
     }
 
     .adviceText {
@@ -80,13 +89,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
 
 .adviceId {
     color: hsl(150, 100%, 66%);
     font-size: 14px;
-    padding-bottom: 15px;
 }
 
 .adviceText {
@@ -110,6 +119,7 @@ body {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    border: none;
     transition: all 0.75s ease-in-out;
     
 }
